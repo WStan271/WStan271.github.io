@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
 <link rel="stylesheet" type="text/css" href="index.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css"> 
 
-<nav>
+<div id="container">
+<title> Welcome fellow snakes</title> 
+<!-- create navigation bar -->
+ <nav>
   <ul class="w3-navbar w3-black">
     <li><p><a href="index.html">Home</a></p></li>
+	<li><p><a href="index.html">About</a></p></li>
+	<li><p><a href="index.html">Snakery</a></p></li>
   </ul>
 </nav>
 
-<title> Welcome fellow snakes</title> 
+<div id="header">
+   
+<head>
+<p style="font-family:Impact;color:red;font-size:80px"><strong>Welcome to the secret snake club</strong></p> 
+ <!-- HTML does not allow you to center, so you need to use CSS to center text-->
 </head>
-<p style="font-family:Impact;color:red;font-size:80px"><strong>Welcome to the secret snake club</strong></p>  <!-- HTML does not allow you to center, so you need to use CSS to center text-->
-
-<body bgcolor="#000000">
-<p>
+</div>
+ <!-- end header div -->
+ 
+<div id="body">
+<body>
 
 <center><img src="snakeclub.png" border="0"></center>
-<audio controls autoplay>
+<p> <audio controls autoplay>
   <source src="snakeMusic.mp3" type="audio/mpeg"></source>
   </audio>
-</p>
+  </p>
+
 </body>
+</div> <!-- end body div-->
+
+<div id="footer">
 <footer class="w3-container w3-black">
   <p>For my fellow snakes</p>
 </footer>
-
+</div>
+</div> <!-- end div container -->
 </html>
